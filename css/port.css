@@ -1,6 +1,7 @@
   * {
     margin: 0;
     padding: 0;
+   
   }
   html,body{
     height: 100%;
@@ -23,10 +24,26 @@
     font-weight: 500;
      
   }
-  .one,.two{
+  .one,.two,.three{
     margin: 20px 40px;
     background-color: white;
     box-shadow: 5px 5px 10px #888888;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+  }
+  .three a{
+     text-decoration: none;
+     color: black;
+     background-color: orange;
+     padding: 5px 15px;
+     width: fit-content;
+     border-radius: 20px;
+     display: block;
   }
   .wrap{
     width:100%;
@@ -168,6 +185,7 @@
     }
   
   
+  
   }
 @media only screen and (max-width:500px) {
   *{
@@ -220,13 +238,16 @@
         justify-content: center;
         align-items: center;
       }
-      .two{
+      .two,.three{
         padding: 10px;
         margin: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      }
+      .three img{
+        width: 100%;
       }
       .wrap1{
         width:90%;
@@ -375,7 +396,7 @@
       align-items: center;
       margin: 10px;
     }
-    .two{
+    .two,.three{
       padding: 10px;
       display: flex;
       flex-direction: column;
@@ -383,5 +404,6 @@
       align-items: center;
       margin: 10px;
     }
+    
   
   }
