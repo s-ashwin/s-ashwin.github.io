@@ -7,21 +7,23 @@ body{
   display: flex;
   flex-direction: column;
 }
-html, body{
+html,body{
   height: 100%;
+
 }
 #select{
   color: red;
 
 }
 .wrap{
-  width:60%;
+  width:50%;
   height: fit-content;
   margin: 0 auto;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content:center ;
+
   
 }
 .wrap1{
@@ -37,6 +39,7 @@ html, body{
   display: none;
 }
 .banner{
+
   width: 100%;
   height: fit-content;
   margin-top: 100px;
@@ -73,7 +76,7 @@ nav ul li a{
 h1{
   font-size: 27px;
   font-family: sans-serif;
-  line-height: 15vw;
+  line-height: 11vw;
   text-align: center;
   color: #333945;
   font-weight: 500;
@@ -83,47 +86,48 @@ a{
   text-decoration: none;
 }
 .one{
+  
   background: white;
   margin: 12px 10px;
   box-shadow: 5px 5px 10px #888888;
-  width: 15vw;
-  height: 15vw;
+  width: 11vw;
+  height: 11vw;
   
 }
 .two{
   background-color: white;
   margin: 10px 10px;
-  width: 35vw;
-  height: 15vw;
+  width: 30vw;
+  height: 11vw;
   box-shadow: 5px 5px 10px #888888;
 }
 .three{
   background-color: white;
   margin: 10px 10px;
   box-shadow: 5px 5px 10px #888888;
-  width: 35vw;
-  height: 15vw;
+  width: 30vw;
+  height: 11vw;
 }
 .four{
   background-color: white;
   margin: 10px 10px;
-  width: 15vw;
-  height: 15vw;
+  width: 11vw;
+  height: 11vw;
   box-shadow: 5px 5px 10px #888888;
 }
 .five{
   background-color: white;
   margin: 10px 10px 20px 10px ;
   box-shadow: 5px 5px 10px #888888;
-  width: 15vw;
-  height: 15vw;
+  width: 11vw;
+  height: 11vw;
 }
 .six{
   background-color: white;
   margin: 10px 10px 20px 10px ;
   box-shadow: 5px 5px 10px #888888;
-  width: 35vw;
-  height: 15vw;
+  width: 30vw;
+  height: 11vw;
 }
 .footer{
   background-color: black;
@@ -212,6 +216,16 @@ a{
         color: red;
        
       }
+      .banner{
+        scroll-snap-align: center;
+      }
+      .wrap{
+        scroll-snap-align: center;
+      }
+      
+      html,body{
+        scroll-snap-type: y proximity;
+      }
       
       nav ul li a:hover{
         color: #FF3031;
@@ -245,6 +259,7 @@ a{
     }
 .container{
   margin: auto 0;
+  
 }
 
 @media only screen and (min-width:501px) and (max-width:768px) {
@@ -279,7 +294,7 @@ a{
   h1{
     font-size: 15px;
     font-family: sans-serif;
-    line-height: 15vw;
+    line-height: 11vw;
     text-align: center;
     color: #333945;
     font-weight: 500;
