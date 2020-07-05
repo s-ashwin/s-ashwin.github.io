@@ -216,17 +216,7 @@ a{
         color: red;
        
       }
-      .banner{
-        scroll-snap-align: center;
-      }
-      .wrap{
-        scroll-snap-align: center;
-      }
-      
-      html,body{
-        scroll-snap-type: y proximity;
-      }
-      
+    
       nav ul li a:hover{
         color: #FF3031;
         text-transform: scale(1.25);
