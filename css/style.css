@@ -216,36 +216,11 @@ a{
         color: red;
        
       }
-    
       nav ul li a:hover{
         color: #FF3031;
         text-transform: scale(1.25);
       }
-      .two, .four, .six{
-        animation: flow 1s;
-      }
-      .one, .three,.five{
-        animation: flowrev 1s;
-      }
-      @keyframes flow {
-        0%{transform: translateX(50%) ;
-        opacity: 0.5;}
-        100%{transform: translateX(0);
-        opacity: 1;}
-      }
-      @keyframes flowrev {
-        0%{transform: translateX(-50%) ;
-        opacity: 0.5;}
-        100%{transform: translateX(0);
-        opacity: 1;}
-      }
-      #banner1{
-        animation: fade 1s;
-     }
-     @keyframes fade {
-       0%{opacity: 0;}
-       70%{opacity: 1;}
-     }
+     
     }
 .container{
   margin: auto 0;
@@ -330,31 +305,7 @@ a{
   .banner{
     margin-top: 50px;
   }
-  .two, .four, .six{
-    animation: flow 1s;
-  }
-  .one, .three,.five{
-    animation: flowrev 1s;
-  }
-  @keyframes flow {
-    0%{transform: translateX(50%) ;
-    opacity: 0.5;}
-    100%{transform: translateX(0);
-    opacity: 1;}
-  }
-  @keyframes flowrev {
-    0%{transform: translateX(-50%) ;
-    opacity: 0.5;}
-    100%{transform: translateX(0);
-    opacity: 1;}
-  }
-  #banner1{
-    animation: fade 1s;
- }
- @keyframes fade {
-   0%{opacity: 0;}
-   70%{opacity: 1;}
- }
+
 }
 
 
@@ -499,24 +450,5 @@ a{
     font-weight: 500;
     width: 100%;
   }
-  .wrap div{
-    animation: flow 1s;
-  }
-  @keyframes flow {
-    0%{transform: translateY(50%) ;
-    opacity: 0.5;}
-    100%{transform: translateY(0);
-    opacity: 1;}
-  }
-  @keyframes anim {
-    0%{width: 20%;}
-    100%{width: 100%;}
-  }
-  #banner1{
-     animation: fade 1s;
-  }
-  @keyframes fade {
-    0%{opacity: 0;}
-    70%{opacity: 1;}
-  }
+
   }

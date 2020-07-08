@@ -159,15 +159,7 @@
         transform: translate(-50%,-30px);
     }
 }
-@keyframes flow {
-  0%{transform: translateY(25%) ;
-  opacity: 0.5;}
-  100%{transform: translateY(0);
-  opacity: 1;}
-}
-.wrap{
-  animation: flow 1s;
-}
+
   @media only screen and (min-width:1000px) {
     nav ul li a:hover{
       color: #FF3031;
@@ -331,13 +323,5 @@
         font-weight: 100;
         line-height: 25px;
       }
-      @keyframes flow {
-        0%{transform: translateY(25%) ;
-        opacity: 0.5;}
-        100%{transform: translateY(0);
-        opacity: 1;}
-      }
-      .wrap{
-        animation: flow 1s;
-      }
+    
     }

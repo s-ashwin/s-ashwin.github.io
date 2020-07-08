@@ -121,12 +121,11 @@
     max-width: 70vw;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #888888;
-    animation: fade 2s;
+    animation: fade 2s ;
   }
 @keyframes fade{
   0%{opacity: 0;transform: translateX(-25%);}
   25%{opacity: 1;transform: translateX(0);}
-  50%{opacity: 1;}
   75%{opacity: 1;transform: translateX(0);}
   100%{opacity: 0;transform: translateX(25%);}
 }

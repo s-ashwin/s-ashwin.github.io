@@ -161,15 +161,7 @@
         transform: translate(-50%,-30px);
     }
 }
-@keyframes flow {
-  0%{transform: translateY(25%) ;
-  opacity: 0.5;}
-  100%{transform: translateY(0);
-  opacity: 1;}
-}
-.wrap img{
-  animation: flow 1s;
-}
+
   @media only screen and (min-width:1000px) {
   
     nav ul li a:hover{
@@ -264,30 +256,14 @@
       .wrap{
         margin-top: 50px;
       }
-      @keyframes flow {
-        0%{transform: translateY(25%) ;
-        opacity: 0.5;}
-        100%{transform: translateY(0);
-        opacity: 1;}
-      }
-      .wrap img{
-        animation: flow 1s;
-      }
+     
   }
 
   @media only screen and (min-width:501px) and (max-width:768px) {
     *{
       -webkit-tap-highlight-color: transparent;
     }
-    @keyframes flow {
-      0%{transform: translateY(25%) ;
-      opacity: 0.5;}
-      100%{transform: translateY(0);
-      opacity: 1;}
-    }
-    .wrap img{
-      animation: flow 1s;
-    }
+  
     .load{
       height: 100%;
     }
