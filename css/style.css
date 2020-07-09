@@ -209,7 +209,12 @@ a{
       transform: translate(-50%,-30px);
   }
 }
-
+@keyframes flow {
+  0%{transform: translateX(50%) ;
+  opacity: 0.5;}
+  100%{transform: translateX(0);
+  opacity: 1;}
+}
 @media only screen and (min-width:1000px) {
       .wrap div :hover{
         transition: all 0.2s linear;
