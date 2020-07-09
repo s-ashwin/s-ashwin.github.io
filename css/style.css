@@ -210,10 +210,13 @@ a{
   }
 }
 @keyframes flow {
-  0%{transform: translateX(50%) ;
+  0%{transform: translateY(30%) ;
   opacity: 0.5;}
-  100%{transform: translateX(0);
+  100%{transform: translateY(0);
   opacity: 1;}
+}
+.animate{
+  animation: flow 1s;
 }
 @media only screen and (min-width:1000px) {
       .wrap div :hover{
