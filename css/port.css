@@ -3,9 +3,6 @@
     padding: 0;
    
   }
-  html,body{
-    height: 100%;
-  }
   body{
     background-color: #DAE0E2;
     display: flex;
@@ -37,14 +34,10 @@
   
   }
   .three a{
-     text-decoration: none;
-     color: white;
-     background-color: orange;
-     padding: 5px 15px;
-     width: fit-content;
-     border-radius: 20px;
-     display: block;
-     box-shadow: 3px 3px 5px grey;
+    padding-bottom: 20px;
+  }
+  .three img{
+    margin: 0 50px;
   }
   .wrap{
     width:100%;
@@ -257,7 +250,8 @@
         align-items: center;
       }
       .three img{
-        width: 100%;
+        width: 80%;
+        margin: 0;
       }
       .wrap1{
         width:90%;
