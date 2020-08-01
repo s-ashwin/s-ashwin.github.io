@@ -91,6 +91,10 @@
     display: flex;
     align-items: center;
   }
+  .foot h2{
+    color: white;
+    font-family: sans-serif;
+  }
   #blog{
     padding: 2.5px;
   }
