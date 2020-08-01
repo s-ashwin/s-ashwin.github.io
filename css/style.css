@@ -424,10 +424,7 @@ a{
     height: fit-content;
   }
   .three{
-    background-color: white;
-    margin: 12px 0;
-    width: 100%;
-    height: fit-content;
+    display: none;
   }
   .four{
     background-color: white;
@@ -436,9 +433,8 @@ a{
     height: fit-content;
   }
   .five{
-    display: none;
     background-color: white;
-    margin: 12px 0 18.75px 0;
+    margin: 12px 0;
     width: 100%;
     height: fit-content;
   }
