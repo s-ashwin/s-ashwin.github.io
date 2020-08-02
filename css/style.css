@@ -11,6 +11,9 @@ body{
   color: red;
 
 }
+html, body{
+  height: 100%;
+}
 .wrap{
   width:50%;
   height: fit-content;
@@ -19,7 +22,7 @@ body{
   display: flex;
   align-items: center;
   justify-content:center ;
-
+  
   
 }
 .wrap1{
