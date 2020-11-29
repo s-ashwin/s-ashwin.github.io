@@ -24,16 +24,16 @@
     font-weight: 500;
      
   }
-  .one,.two,.three{
+  .one,.two,.three,.four{
     margin: 20px 40px;
     background-color: white;
     box-shadow: 5px 5px 10px #888888;
     text-align: center;
     font-family: sans-serif;
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
   }
   .three a{
@@ -41,6 +41,18 @@
   }
   .three img{
     margin: 0 50px;
+  }
+  .four a{
+    text-decoration: none;
+    color: #323330;
+    background-color: #F0DB4F;
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .wrap{
     width:100%;
@@ -240,21 +252,26 @@
         flex-direction: column;
         align-items: center;
       }
-      .one{
-        padding: 10px 10px 10px 10px;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .two,.three{
+      .one,.two,.three{
         padding: 10px;
         margin: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      }
+      .four{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .four img{
+        width: 100%;
+      }
+      .four a{
+        font-size: small;
       }
       .three img{
         width: 80%;
