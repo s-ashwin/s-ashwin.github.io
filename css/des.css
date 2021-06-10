@@ -98,8 +98,9 @@
     padding: 2.5px;
   }
   .wrap{
+      margin: 0 auto;
       margin-top: 70px;
-      width: 100%;
+      width: 80%;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
@@ -110,8 +111,9 @@
       margin: 15px;
   }
   .img img{
+      border-radius: 0.25rem;
       width: 100%;
-      box-shadow: 5px 5px 10px #888888;
+      box-shadow: 3px 3px 5px #888888;
   }
   .load{
     z-index: 100;
@@ -267,6 +269,7 @@
         line-height: 25px;
       }
       .wrap{
+        width: 100%;
         margin-top: 50px;
       }
      
