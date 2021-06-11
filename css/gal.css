@@ -47,13 +47,14 @@
     height: 50px;
   }
   h1{
-    font-size: 30px;
+    font-size: 25px;
     font-family: sans-serif;
     text-align: center;
     color: #333945;
-    font-weight: 500;
+    font-weight: 300;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 100px;
+    margin-bottom: 25px;
   }
   p{
     font-family: sans-serif;
@@ -118,12 +119,12 @@
   }
   .one img{
     display: none;
-  
+    border-radius: 0.25rem;
     animation-name: fader;
     max-height: 500px;
     max-width: 70vw;
     margin: 0 auto;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 3px 3px 5px #888888;
     animation: fade 2s ;
   }
 @keyframes fade{
@@ -137,26 +138,26 @@
       bottom: 50%;
       right: 10%;   
       height: 50px;
-      width: 50px;
-      border-radius: 50px;
+      width: 35px;
+      border-radius: 0.25rem;
       border: none;
       transform: translateY(50%);
-      box-shadow: 5px 5px 10px #888888;
       color: red;
       background-color:white;
+      cursor: pointer;
   }
   .left{
       position: absolute;
       bottom: 50%;
       left: 10%;
       height: 50px;
-      width: 50px;
-      border-radius: 50px;
+      width: 35px;
+      border-radius: 0.25rem;
       border: none;
       transform: translateY(50%);
-      box-shadow: 5px 5px 10px #888888;
       color: red;
       background-color:white;
+      cursor: pointer;
   }
   button:focus{
       outline: none;
@@ -243,7 +244,9 @@
         height:50px;
       }
       h1{
-          margin-top: 15px;
+        font-size: 20px;
+          margin-top: 75px!important;
+          margin-bottom: 0;
       }
       .wrap1{
         width:90%;
@@ -307,10 +310,6 @@
       }
       .left{
           left: 1%;
-      }
-      h1{
-          font-size: 20px;
-          margin-top: 60px;
       }
       
   }
