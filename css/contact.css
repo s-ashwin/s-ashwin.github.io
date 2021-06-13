@@ -49,11 +49,12 @@
   }
   .wrap h2{
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: 300;
   }
   .wrap p{
-    color: #616C6F;
+    font-weight: 300;
     text-align: center;
+    margin: 0 10%;
   }
   a{
     text-decoration: none;
@@ -65,7 +66,7 @@
   }
   .wrap{
     border-radius: 0.25rem;
-      width: 60%;
+      width: fit-content;
       height: fit-content;
       display: flex;
       flex-direction: column;
@@ -74,7 +75,7 @@
       gap: 7px;
       background-color: white;
       margin: 20px auto;
-      padding: 20px 10px;
+      padding: 20px 20px;
       box-shadow: 3px 3px 5px #888888;
   }
   form{
@@ -88,6 +89,19 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+  .btn {
+    width: fit-content;
+    border: 1px solid #4CAF50;
+    color: #4CAF50;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #45a049;
+    color: white;
   }
   input[type=submit] {
     width: 100%;
@@ -314,6 +328,9 @@
       
       .wrap{
           width: 90%;
+      }
+      .wrap p{
+        margin: 0;
       }
       
       .wrap1{
