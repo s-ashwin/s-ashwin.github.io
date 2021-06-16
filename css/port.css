@@ -24,7 +24,7 @@
     font-weight: 500;
   }
   .four{
-    margin: 20px 40px;
+    margin: 15px;
     background-color: white;
     box-shadow: 3px 3px 5px #888888;
     text-align: center;
@@ -34,8 +34,35 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  .four,.four img{
+  .overlay {
     border-radius: 0.25rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .four,.four img{
+    position: relative;
+    display: block;
+    border-radius: 0.25rem;
+    transition: opacity .2s ease-in-out;
   }
   .four a{
     width: 100%;
@@ -45,7 +72,8 @@
     justify-content: center;
   }
   .wrap{
-    width:100%;
+    width:90%;
+    margin: 0 auto;
     height: fit-content;
     margin-top: 70px ;
     flex-wrap: wrap;
@@ -57,6 +85,7 @@
     margin: auto 0;
   }
   nav{
+    z-index: 5;
     width: 100%;
     height:70px;
     background-color: white;
@@ -193,6 +222,9 @@
     nav ul li a:hover{
       color: #FF3031;
       text-transform: scale(1.25);
+    }
+    .four:hover .overlay {
+      opacity: 1;
     }
   }
 @media only screen and (max-width:500px) {
