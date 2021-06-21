@@ -174,32 +174,31 @@
     pointer-events: none;
 }
 .d, .do,.dot{
-    font-size: 150px;
-    color: red;
-    position: absolute;
-    text-shadow: 5px 5px 10px #888888;
+  font-size: 100px;
+  color: red;
+  position: absolute;
+  text-shadow: 3px 3px 5px #888888;
 }
 .d{
-    left: 47%;
-    top: 50%;
-    transform: translate(-50%,0px);
-    animation: dot1 1.2s ease infinite alternate;
+  left: 47%;
+  top: 57%;
+  transform: translate(-50%,0px);
+  animation: dot1 1.2s ease infinite alternate;
 }
 .do{
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,0px);
-    animation: dot1 1.2s ease infinite alternate;
-    animation-delay: 0.4s;
+  left: 50%;
+  top: 57%;
+  transform: translate(-50%,0px);
+  animation: dot1 1.2s ease infinite alternate;
+  animation-delay: 0.4s;
 }
 .dot{
-    left: 53%;
-    top: 50%;
-    transform: translate(-50%,0px); 
-    animation: dot1 1.2s ease infinite alternate;
-    animation-delay: 0.8s;
+  left: 53%;
+  top: 57%;
+  transform: translate(-50%,0px); 
+  animation: dot1 1.2s ease infinite alternate;
+  animation-delay: 0.8s;
 }
-
 @keyframes dot1{
     from{
        transform: translate(-50%,0px);
