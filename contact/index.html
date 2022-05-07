@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Ash</title>
     <link rel="icon" type="image/png" href="../img/txa.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,10 +33,14 @@
     action="https://formspree.io/f/xvodrzbe"
     method="POST"
     >
-      <input placeholder="Name" id="name" type="name" name="Name" required>
-      <input placeholder="Your email" id="mail" type="email" name="_replyto" required>
-      <textarea required placeholder="Message" id="msg" name="Message"></textarea>
-      <input type="submit"></input>
+      <h2 style="margin-bottom: 30px;">Send me a message </h2>
+      <label>Name</label>
+      <input placeholder="Enter Your Name" id="name" type="name" name="Name" required>
+      <label>Email</label>
+      <input placeholder="Enter Your email" id="mail" type="email" name="_replyto" required>
+      <label>Message</label>
+      <textarea required placeholder="Enter Your Message" id="msg" name="Message"></textarea>
+      <button type="submit">Send <i class="fa fa-paper-plane"></i></button>
     </form>
     </div>
     </div>

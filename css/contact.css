@@ -9,6 +9,7 @@
 .wrap h2 {
   font-family: sans-serif;
   font-weight: 300;
+  margin:10px 0;
 }
 .wrap p {
   font-weight: 300;
@@ -50,13 +51,14 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family: sans-serif!important;
 }
 .btn {
   width: fit-content;
   border: 1px solid #4caf50;
   color: #4caf50;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 25px 0 0 0;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -64,17 +66,22 @@ textarea {
   background-color: #45a049;
   color: white;
 }
-input[type="submit"] {
+label{
+  color:grey;
+  font-size:small;
+}
+button[type="submit"] {
   width: 100%;
   background-color: #4caf50;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 10px 0 0 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size:medium;
 }
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background-color: #45a049;
 }
 
