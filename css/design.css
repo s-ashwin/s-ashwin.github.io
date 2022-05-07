@@ -1,0 +1,45 @@
+h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #333945;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 40px;
+}
+p {
+  font-family: sans-serif;
+  line-height: 5vw;
+  text-align: center;
+  color: #333945;
+  font-weight: 300;
+  width: 100%;
+}
+.wrap {
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  flex-basis: 300px;
+  margin: 15px;
+}
+.img img {
+  border-radius: 0.25rem;
+  width: 100%;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+@media only screen and (min-width: 1000px) {
+  nav ul li a:hover {
+    color: #ff3031;
+    text-transform: scale(1.25);
+  }
+  .img img:hover {
+    transform: scale(1.05);
+  }
+}
