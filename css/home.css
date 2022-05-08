@@ -34,7 +34,7 @@ h1 {
   line-height: 11vw;
   text-align: center;
   color: #333945;
-  font-weight: 100;
+  font-weight: 500;
   width: 100%;
 }
 
@@ -80,7 +80,7 @@ h1 {
     line-height: 11vw;
     text-align: center;
     color: #333945;
-    font-weight: 100;
+    font-weight: 500;
     width: 100%;
   }
 
@@ -158,7 +158,7 @@ h1 {
     line-height: 90px;
     text-align: center;
     color: #333945;
-    font-weight: 100;
+    font-weight: 350;
     width: 100%;
   }
 }
