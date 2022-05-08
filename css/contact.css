@@ -46,7 +46,7 @@ input,
 textarea {
   width: 100%;
   padding: 12px 12px !important;
-  margin: 10px 0;
+  margin: 5px 0 15px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -169,5 +169,8 @@ button[type="submit"]:hover {
   }
   .container {
     margin-top:50px;
+  }
+  form{
+    padding:0!important;
   }
 }
