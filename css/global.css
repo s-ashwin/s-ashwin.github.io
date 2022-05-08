@@ -117,7 +117,9 @@ a {
 .foot h2 {
   color: white;
   font-size:28px;
+  font-weight:normal;
   font-family: sans-serif;
+  margin-bottom:5px;
 }
 nav {
   position: fixed;
@@ -231,6 +233,11 @@ nav ul li a {
     font-weight: 100;
     line-height: 25px;
   }
+  .foot h2 {
+    color: white;
+    font-size:23px;
+    font-family: sans-serif;
+  }
   .wrap {
     width: 100%;
     margin-top: 50px;
@@ -304,6 +311,11 @@ nav ul li a {
     font-size: 14px;
     font-weight: 100;
     line-height: 25px;
+  }
+  .foot h2 {
+    color: white;
+    font-size:23px;
+    font-family: sans-serif;
   }
   .wrap {
     margin-top: 50px;
