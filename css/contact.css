@@ -108,11 +108,7 @@ button[type="submit"]:hover {
   }
   nav {
     height: 50px;
-  }
-  .wrap1 {
-    width: 80%;
-    margin: 0 auto;
-  }
+  } 
   .wrap h2 {
     color: #333945;
   }
@@ -141,16 +137,6 @@ button[type="submit"]:hover {
   }
   .wrap p {
     margin: 0;
-  }
-
-  .wrap1 {
-    width: 90%;
-    height: fit-content;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
   }
   .profile img {
     height: 150px;

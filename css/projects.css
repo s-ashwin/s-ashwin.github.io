@@ -72,11 +72,6 @@ h1 {
   margin: auto 0;
 }
 
-.wrap1 {
-  width: 70%;
-  margin: 0 auto;
-}
-
 @media only screen and (min-width: 1000px) {
   nav ul li a:hover {
     color: #ff3031;
@@ -116,25 +111,12 @@ h1 {
   .proj img {
     width: 100%;
   }
-  .wrap1 {
-    width: 90%;
-    height: fit-content;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
 }
 @media only screen and (min-width: 501px) and (max-width: 768px) {
   #morse,
   #gest {
     width: 60vw;
     height: 35vw;
-  }
-  .wrap1 {
-    width: 80%;
-    margin: 0 auto;
   }
   .wrap {
     width: 100%;
