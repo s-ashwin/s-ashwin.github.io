@@ -24,10 +24,6 @@
   margin-top: 70px;
 }
 
-#logo {
-  padding: 10px 0;
-  height: 50px;
-}
 h1 {
   font-size: 1.25em;
   font-family: sans-serif;
@@ -93,10 +89,6 @@ h1 {
     font-weight: 510;
     font-size: 15px;
   }
-  #logo {
-    padding: 6px 0;
-    height: 35px;
-  }
 
   .banner {
     margin-top: 50px;
@@ -133,11 +125,6 @@ h1 {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-
-  #logo {
-    padding: 6px 0;
-    height: 35px;
   }
 
   .small {

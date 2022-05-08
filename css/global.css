@@ -145,8 +145,8 @@ nav ul li a {
   font-size: 17px;
 }
 #logo {
-  padding: 10px 0;
-  height: 50px;
+  padding: 2.5px 0;
+  height: 65px;
 }
 #blog {
   padding: 2.5px;
@@ -206,8 +206,7 @@ nav ul li a {
     font-weight: 510;
   }
   #logo {
-    padding: 6px 0;
-    height: 35px;
+    height: 45px;
   }
   .footer {
     background-color: black;
@@ -286,8 +285,7 @@ nav ul li a {
     font-size: 18px;
   }
   #logo {
-    padding: 6px 0;
-    height: 35px;
+    height: 45px;
   }
   .footer {
     background-color: black;

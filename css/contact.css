@@ -2,10 +2,6 @@
   width: fit-content;
   margin: 0 auto;
 }
-#logo {
-  padding: 10px 0;
-  height: 50px;
-}
 .wrap h2 {
   font-family: sans-serif;
   font-weight: 300;
@@ -130,10 +126,6 @@ button[type="submit"]:hover {
     font-weight: 510;
     font-size: 15px;
   }
-  #logo {
-    padding: 6px 0;
-    height: 35px;
-  }
   .container {
     margin-top:50px;
   }
@@ -159,10 +151,6 @@ button[type="submit"]:hover {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  #logo {
-    padding: 6px 0;
-    height: 35px;
   }
   .profile img {
     height: 150px;
